@@ -10,15 +10,3 @@ export const removeAllContacts = async () => {
 };
 
 removeAllContacts();
-
-// import fs from 'node:fs/promises';
-
-// // Видаляємо файл за шляхом 'file.txt'
-// (async () => {
-//   try {
-//     await fs.unlink('file.txt');
-//     console.log('Файл успішно видалено.');
-//   } catch (err) {
-//     console.error('Помилка видалення файлу:', err);
-//   }
-// })();
